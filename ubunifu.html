@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="ubunifu"></p>
+    <button type="button" onClick="Welcome()">Welcome</button>
+    <p id="phones"></p>
+
+    <script>
+      //function Welcome(){
+      //  document.getElementById("ubunifu").innerHTML="Welcome to Ubunifu";
+
+      var phones= ["Huawei","Infinix","Tecno","Itel"]
+      var i;
+      for (i = 0; i < phones.length; i++)
+      {
+        document.write (phones[i]+"<br>");
+
+      }
+
+      var age =2;
+      if (age<10)
+       {
+         document.write("infant");
+      }
+      else if (age>10) {
+        document.write("adult");
+      }
+      else if (age==2) {
+        document.write("two");
+      }
+      else {
+        document.write("invalid age");
+      }
+
+
+</script>
+
+  </body>
+</html>
